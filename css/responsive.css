@@ -1,0 +1,20 @@
+/*extra small device*/
+
+@media(max-width:565px) {
+    
+.exclusive-text {
+	padding: 0;
+}
+    
+    
+}
+
+@media(max-width:991px) {
+    
+ .navbar-fixed-top {
+    top: 84px;
+}
+    
+    
+    
+}

@@ -1,0 +1,541 @@
+/*********common part css**************/
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+img {
+    vertical-align: middle
+}
+
+ul,
+li {
+    list-style-type: none;
+}
+
+@font-face {
+    src: url(../fonts/Sriracha-Regular.ttf);
+    font-family: sr;
+}
+
+@font-face {
+    src: url(../fonts/Roboto-Regular.ttf);
+    font-family: rr;
+}
+
+@font-face {
+    src: url(../fonts/Roboto-Medium.ttf);
+    font-family: rsb;
+}
+
+@font-face {
+    src: url(../fonts/Montserrat-SemiBold.ttf);
+    font-family: ms;
+}
+
+@font-face {
+    src: url(../fonts/Montserrat-Regular.ttf);
+    font-family: mr;
+}
+
+
+/*********title part css**************/
+
+
+#intro {
+    top: 0;
+    position: fixed;
+    background-color: #f5e8eb;
+    width: 100%;
+    padding: 10px 0;
+    z-index: 999;
+}
+
+.upper-box-text p {
+    font-family: rr;
+}
+
+.upper-icon {
+    text-align: right;
+}
+
+.upper-icon a {
+    padding-left: 15px;
+}
+
+.upper-icon a i {
+    font-size: 20px;
+    color: #000000;
+}
+
+.badge {
+    background: #b9e9f0;
+}
+
+.title {
+    padding: 50px 0px;
+}
+
+.title h4 {
+    font-size: 36px;
+    font-family: sr;
+    color: #0cb4ce;
+}
+
+.title h4 span {
+    color: #020202;
+}
+
+.title p {
+    font-size: 24px;
+    font-family: ms;
+    color: #020202;
+}
+
+.navbar {
+
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    background: #ffffff;
+}
+
+.navbar-fixed-top {
+    top: 44px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #0cb4ce;
+    font-size: 20px;
+    font-family: rr;
+    padding-left: 24px;
+}
+
+/*********banner_part css**************/
+
+
+#banner_part {
+    padding: 150px 0px;
+    background: url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.banner_text {}
+
+.banner_text h2 {
+    font-size: 60px;
+    font-family: rsb;
+    color: #0cb4ce;
+    padding-bottom: 20px;
+}
+
+.banner_text p {
+    font-size: 20px;
+    font-family: rr;
+    color: #020202;
+    padding-bottom: 50px;
+}
+
+.banner_text a {
+    font-size: 16px;
+    font-family: ms;
+    color: #fff;
+    padding: 15px 36px;
+    background: #0cb4ce;
+}
+
+
+#brands {
+    padding: 50px 0;
+}
+
+.brands-content h2 {
+    color: #044f91;
+}
+
+.brands-content p {
+    color: #044f91;
+    font-family: rr;
+}
+
+/*********best-seller-part css**************/
+#best-seller {}
+
+.best-seller-title {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.best-seller-title h3 {
+    color: #000;
+    text-transform: uppercase;
+    font-family: rsb;
+}
+
+.best-seller-title p {
+    color: #000;
+    font-family: rr;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.best-seller-title a {
+    color: #ffffff;
+    font-family: rr;
+    padding: 20px 50px;
+    background: #000000;
+}
+
+.best-sellers-image {
+    height: 400px;
+    background: #f7f7f7;
+    position: relative;
+    display: inline-block;
+}
+
+.best-sellers-image .img-top {
+
+    display: none;
+
+    position: absolute;
+
+    top: 0;
+
+    left: 0;
+
+    z-index: 99;
+
+}
+
+.best-sellers-image:hover .img-top {
+
+    display: inline;
+
+}
+
+.best-sellers-name {
+    background: #fff;
+    padding: 5px 0;
+}
+
+.best-sellers-name h6 {
+    color: #000000;
+    font-family: rsb;
+}
+
+.best-sellers-name p {
+    color: #000000;
+    font-family: rr;
+
+}
+
+.best-sellers-link {
+    background: #f7f7f7;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.best-sellers-link:hover {
+    background: #000000;
+}
+
+.best-sellers-link:hover.best-sellers-link a {
+    color: #ffffff;
+}
+
+.best-sellers-link a {
+    color: #000000;
+    font-family: rsb;
+    padding: 20px 0;
+}
+
+/*********video_part css**************/
+#video-part {
+    margin: 50px 0;
+}
+
+.video {
+    height: 400px;
+}
+
+.video-part-text {
+    padding: 100px 0;
+}
+
+.video-part-text i {
+    color: #ff9300;
+    font-size: 20px;
+    padding: 0 5px;
+}
+
+.video-part-text h4 {
+    color: #000;
+    font-family: rsb;
+    padding-top: 20px;
+}
+
+.video-part-text p {
+    color: #000000;
+    font-size: 14px;
+    font-family: rr;
+    padding-bottom: 25px;
+}
+
+.video-part-text a {
+    color: #ffffff;
+    font-size: 16px;
+    font-family: rr;
+    padding: 15px 30px;
+    background: #000000;
+}
+
+/*********exclusive part css**************/
+#exclusive {
+    margin: 50px 0;
+}
+
+.exclu-image {
+    height: 400px;
+}
+
+.exclusive-text {
+    padding: 100px 0;
+}
+
+.exclusive-text span {
+    color: #ff0000;
+    font-size: 14px;
+    font-family: rr;
+    padding: 0 5px;
+}
+
+.exclusive-text h4 {
+    color: #000;
+    font-family: rsb;
+    padding-top: 20px;
+}
+
+.exclusive-text p {
+    color: #000000;
+    font-size: 14px;
+    font-family: rr;
+    padding-bottom: 25px;
+}
+
+.exclusive-text a {
+    color: #ffffff;
+    font-size: 16px;
+    font-family: rr;
+    padding: 15px 30px;
+    background: #000000;
+}
+
+/*********slider part css**************/
+#slider-part {
+    padding: 40px 0;
+    background: #f7f7f7;
+}
+
+.slider-text h4 {
+    color: #000000;
+    text-align: center;
+    padding-bottom: 40px;
+    font-family: rsb;
+}
+
+.slide-link {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.slide-link a {
+
+    font-family: rsb;
+    color: #fff;
+    padding: 15px 30px;
+    background: #000000;
+}
+
+/*********ready part css**************/
+.ready-bg{
+    background: url(../images/DSC_0511.JPG);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.ready-content {
+    padding: 150px 0;
+    text-align: center;
+}
+.ready-content h4 {
+    color: #ffffff;
+    font-family: rsb;
+    text-transform: uppercase;
+    font-size: 30px;
+    padding-bottom: 25px;
+}
+.ready-content a {
+    color: #000000;
+    font-family: rsb;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 15px 35px;
+    background: #ffffff;
+}
+.ready-content a:hover {
+    background: #f5e8eb;
+}
+/*********contact part css**************/
+#contact {
+    margin: 50px 0;
+    background: #ecfafa;
+    padding: 100px 0;
+}
+.reg-text{
+    text-align: center;
+}
+.reg-text h4 {
+    color: #000000;
+    font-family: rsb;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.reg-text p {
+    color: #000000;
+    font-family: rr;
+}
+.reg {
+    text-align: center;
+}
+.mail {
+    padding: 10px 0;
+    border: none;
+    padding-left: 10px;
+}
+.reg button {
+    background: #000000;
+    border: none;
+    padding: 12px 58px;
+}
+.reg button input{
+    background: none;
+    color: #ffffff;
+    border: none;
+    
+}
+/*********about_part css**************/
+
+
+#about_part {
+    padding: 100px 0px;
+}
+
+.about_write {
+    margin-top: 80px;
+    margin-left: 10px;
+
+}
+
+.about_write h5 {
+    font-size: 22px;
+    font-family: sr;
+    color: #0cb4ce;
+    line-height: 35px;
+    margin-bottom: 35px;
+}
+
+.about_write a {
+    font-size: 16px;
+    font-family: ms;
+    color: #fff;
+    padding: 6px 16px;
+    background: #0cb4ce;
+    border-radius: 5px;
+}
+
+/*********footer_part css**************/
+
+#footer_part {
+    padding-top: 50px;
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.footer-write h4 {
+    font-size: 18px;
+    font-family: mr;
+    color: #403f3f;
+    padding-bottom: 15px;
+}
+
+.footer-write h3 {
+    font-size: 16px;
+    font-family: rl;
+    color: #777;
+}
+
+.footer-write h6 {
+    font-size: 16px;
+    font-family: mr;
+    color: #777;
+}
+
+.footer-write h5 {
+    font-size: 34px;
+    font-family: sr;
+    padding-bottom: 15px;
+}
+.footer-write i{
+    color: #000000;
+    font-size: 20px;
+    padding-right: 10px;
+}
+.footer-write h5 a {
+
+    color: #0cb4ce;
+}
+
+.footer-write ul li {
+    padding-bottom: 10px;
+}
+
+.footer-write ul li a {
+    font-size: 16px;
+
+    color: #777;
+    font-family: mr;
+    transition: all linear .3s;
+}
+
+.footer-write ul li a:hover {
+    padding-left: 5px;
+    color: #525050;
+}
+
+#footer_part p {
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 14px;
+    color: #070707;
+    font-family: sr;
+    border-top: 2px solid #e6e6e6;
+}
+
+#footer_part p span {
+    color: #3deaa4;
+    font-family: ms;
+}
